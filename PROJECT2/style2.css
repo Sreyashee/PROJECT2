@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;800&display=swap');
+  /**
+  {
+      margin: 0;
+      padding: 0;
+      box-sizing: 0;
+  
+  }
+  :root{
+      --primary-text-color: #183b56;
+      --secondary-text-color: #577592;
+      --accent-color:#2294ed;
+      --accent-color-dark:#1d69a3;
+      --padding-inline-section: 20px;
+  }
+  body{
+    font-family: 'Spartan', sans-serif ;
+    color: var(--primary-text-color);
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+  }
+  ul{
+    list-style: none;
+  }*/
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding:0 ;
+    font-family: 'Roboto',sans-serif;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+  }
+  .container{
+    padding: 0 10vw;
+  }
+  .containerHeader{
+    padding: 0 10vw;
+  }
+  .right{
+    flex-direction: column;
+  }
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
+  .left img{
+    width: 32px;
+    height: 23px;
+  }
+  .header{
+    max-width: 80vw;
+    margin: auto;
+    position: sticky;
+    background: white;
+  }
+  nav ul li{
+    list-style: none;
+    padding: 0 12px;
+    font-size: 10px;
+  }
+  .semibold{
+    font-weight: bolder;
+  }
+  .search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+  }
+  .homeimg{
+    width: 60vw;
+    margin: auto;
+    display: block;
+    
+  }
+  .itemImg{
+    width: 13vw;
+    margin: 10px 12px;
+  }
+  .footer-container{
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  footer{
+    padding-block: 80px;
+    background-color: #ebf2fa; 
+  }
+  .subfooter{
+    background-color: #b9cde4;
+    pad: var(--padding-inline-section);
+  }
+  .subfooter-container{
+    justify-content: center;
+    gap: 30px;
+  }
